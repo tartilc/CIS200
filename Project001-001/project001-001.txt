@@ -1,0 +1,77 @@
+#include "stdafx.h"
+#include "iostream"
+using namespace std;
+
+void set(int row, int col, char color);
+void iterate(int &row, int &col, char color);
+
+char board[8][8];
+
+
+int main()
+{
+	//initialize blanks
+	for (int i = 0; i < 8; i++)
+	{
+		for (int j = 0; j < 8; j++)
+		{
+			board[i][j] = ' ';
+		}
+	}
+
+	int numW = 0, numB = 0;
+	int setrow, setcol;
+
+	cin >> numW >> numB;
+
+	//sets pieces
+	for (int i = 0; i < numW; i++)
+	{
+		cin >> setrow >> setcol;
+		set(setrow-1, setcol-1, 'W');
+	}
+
+	for (int i = 0; i < numB; i++)
+	{
+		cin >> setrow >> setcol;
+		set(setrow-1, setcol-1, 'B');
+	}
+
+	//displays board;
+	for (int i = 0; i < 8; i++)
+	{
+		for (int j = 0; j < 8; j++)
+		{
+			cout << board[i][j] << " | ";
+		}
+
+		cout << endl;
+	}
+
+	//iterates through board to do stuff
+	int doRow = 0, doCol = 0;
+	iterate(doRow, doCol, 'W');
+
+	system ("pause");
+	return 0;
+}
+
+void set(int row, int col, char color)
+{
+	board[row][col] = color;
+}
+
+void iterate(int &row, int &col, char color)
+{
+	while (row < 8)
+	{
+		if (board[row][col] == ' ')
+		{
+			row++;
+
+		}
+	}
+	col++;
+	row = 0;
+}
+

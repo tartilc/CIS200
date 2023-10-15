@@ -1,0 +1,5 @@
+﻿  Project002-001-2.cpp
+c:\users\owner\documents\cis200\project002-001-2\project002-001-2\project002-001-2.cpp(149): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\owner\documents\cis200\project002-001-2\project002-001-2\project002-001-2.cpp(151): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\owner\documents\cis200\project002-001-2\project002-001-2\project002-001-2.cpp(152): warning C4305: 'argument': truncation from 'double' to 'float'
+  Project002-001-2.vcxproj -> C:\Users\Owner\Documents\CIS200\Project002-001-2\Debug\Project002-001-2.exe

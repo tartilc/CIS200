@@ -1,0 +1,6 @@
+﻿  Project002-001-4.cpp
+c:\users\owner\documents\cis200\project002-001-4\project002-001-4\project002-001-4.cpp(106): warning C4553: '==': operator has no effect; did you intend '='?
+  c:\users\owner\documents\cis200\project002-001-4\project002-001-4\project002-001-4.cpp(101): note: while compiling class template member function 'Stack<int>::Stack(const Stack<int> &)'
+  c:\users\owner\documents\cis200\project002-001-4\project002-001-4\project002-001-4.cpp(172): note: see reference to function template instantiation 'Stack<int>::Stack(const Stack<int> &)' being compiled
+  c:\users\owner\documents\cis200\project002-001-4\project002-001-4\project002-001-4.cpp(154): note: see reference to class template instantiation 'Stack<int>' being compiled
+  Project002-001-4.vcxproj -> C:\Users\Owner\Documents\CIS200\Project002-001-4\Debug\Project002-001-4.exe

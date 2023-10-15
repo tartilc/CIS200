@@ -1,0 +1,6 @@
+﻿  Lab008-002.cpp
+c:\users\owner\documents\cis200\lab008-002\lab008-002\lab008-002.cpp(94): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\owner\documents\cis200\lab008-002\lab008-002\lab008-002.cpp(95): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\owner\documents\cis200\lab008-002\lab008-002\lab008-002.cpp(119): warning C4101: 'd3': unreferenced local variable
+c:\users\owner\documents\cis200\lab008-002\lab008-002\lab008-002.cpp(119): warning C4101: 'd4': unreferenced local variable
+  Lab008-002.vcxproj -> C:\Users\Owner\Documents\CIS200\Lab008-002\Debug\Lab008-002.exe
